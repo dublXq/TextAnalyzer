@@ -38,7 +38,7 @@ class TextFormatter:
                 if c > val:
                     val = c
                     key = [key for key in counter if counter[key] == val]
+            else:
+                key = "Нет совпадений"
 
         return self.lister.append(key)
-
-
